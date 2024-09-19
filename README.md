@@ -46,7 +46,7 @@ TaskTracker è un'applicazione di gestione delle attività costruita con **Angul
 
 ## Contatti🌐  
 
-- **LinkedIn**  : [My LinkedIn](https://www.linkedin.com/in/salvatore-di-dio-/)
+- **LinkedIn**  : [Salvatore Di Dio](https://www.linkedin.com/in/salvatore-di-dio-/)
 
 - **Email**  : didiosalvatore25@gmail.com
 
