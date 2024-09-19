@@ -1,27 +1,59 @@
-# TaskTracker
+# TaskTracker :clipboard:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
+TaskTracker è un'applicazione di gestione delle attività costruita con **Angular**. Consente agli utenti di creare, visualizzare, modificare e cancellare task tramite chiamate API REST e un'interfaccia moderna.
 
-## Development server
+## Funzionalità principali
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Aggiungi nuove attività con titolo, descrizione e promemoria.
+- Visualizza una lista di task.
+- Modifica e cancella task esistenti.
+- Attiva/disattiva promemoria per i task.
+- Comunicazione con un server mock tramite HTTP per gestire i dati.
 
-## Code scaffolding
+## Tecnologie utilizzate
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**
+- **TypeScript**
+- **HTML/CSS**
+- **JSON Server**: API REST fittizia per simulare il backend.
+- **HttpClientModule**: Modulo Angular per effettuare chiamate HTTP.
+- **FontAwesome**: Per migliorare l'interfaccia utente con l'integrazione di icone.
 
-## Build
+## Struttura del progetto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  - **app/app**: Contiene i componenti e servizi Angular per l'interfaccia utente.
+  - **Task.ts**: Definisce l'interfaccia Task, che rappresenta la struttura di un task.
+  - **mock-Tasks.ts**: Contiene una lista mock di task utile per simulare l'inizializzazione dei task.
+  - **db.json** : File JSON che simula un database per i task.
+  - **task.services.ts** : Gestisce le chiamate HTTP per ottenere, aggiungere, modificare o eliminare task.
 
-## Running unit tests
+## Installazione
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clona il repository:
+    ```bash
+   git clone https://github.com/Salvo-25/TaskTracker.git
+2. Installa le dipendenze:
+   ```bash
+   npm istall
+3. Avvia il server di sviluppo:
+   ```bash
+   ng serve
+4. Avvia il server JSON:
+   ```bash
+   npm run server
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contatti🌐  
 
-## Further help
+- **LinkedIn**  : [My LinkedIn](https://www.linkedin.com/in/salvatore-di-dio-/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Email**  : didiosalvatore25@gmail.com
+
+## Ringraziamenti🙌 
+
+Grazie per aver preso il tempo di leggere il mio README e per il tuo interesse nel progetto! Se hai domande o suggerimenti non esitare a contattarmi
+
+
+
+  
